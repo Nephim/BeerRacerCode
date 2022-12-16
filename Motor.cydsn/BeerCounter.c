@@ -23,7 +23,7 @@ BeerCounter BeerCounter_constructor(){
     beerCounter.getAmount = BeerCounter_getAmount;
     beerCounter.tare(&beerCounter);
     
-    return beerCounter; //Return the object
+    return beerCounter; //Return the object 
 }
 
 void BeerCounter_tare(BeerCounter* self){
